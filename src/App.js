@@ -19,6 +19,8 @@ function App() {
           <Route path="/books">
             <BookList />
           </Route>
+
+          <Route path="/books/:id"></Route>
         </Switch>
       </BrowserRouter>
     </main>
